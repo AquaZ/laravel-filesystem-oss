@@ -1,0 +1,20 @@
+{
+    "name": "aquaz/laravel-filesystem-oss",
+    "description": "AliyunOSS filesystem for Laravel",
+    "require": {
+        "league/flysystem": "^1.0",
+        "aliyuncs/oss-sdk-php": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qizhao",
+            "email": "qizhao0123@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AquaZ\\LaravelFilesystemOss\\": "src/"
+        }
+    }
+}
